@@ -6,7 +6,7 @@ const TestLayout = ({children}:
     }
 ) => {
   return (
-    <div className='bg-blue-300'>
+    <div className='bg-blue-300 h-full'>
         {children}</div>
   )
 }
