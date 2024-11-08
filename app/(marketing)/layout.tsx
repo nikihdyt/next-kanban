@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar } from './_components/navbar'
+import { Footer } from './_components/footer'
 
 const MarketingLayout = ({children}:
     {
@@ -8,9 +9,11 @@ const MarketingLayout = ({children}:
 ) => {
   return (
     <div className='h-full bg-slate-100'>
+        <Navbar/>
         <main className='pt-40 pb-20'>
             {children}
         </main>
+        <Footer/>
     </div>
   )
 }
